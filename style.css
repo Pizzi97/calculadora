@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(192, 173, 0);
+}
+
+input{
+    width: -webkit-fill-available;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+}
+
+
